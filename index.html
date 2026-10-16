@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dave's Dice Roller</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Dave's Dice Roller</h1>
+        <h2>Select Your Die</h2>
+        <section class="opts">
+            <button class="opt-btn" id="3">d3</button>
+            <button class="opt-btn" id="4">d4</button>
+            <button class="opt-btn" id="6">d6</button>
+            <button class="opt-btn" id="8">d8</button>
+            <button class="opt-btn" id="10">d10</button>
+            <button class="opt-btn" id="12">d12</button>
+            <button class="opt-btn" id="20">d20</button>
+            <button class="opt-btn" id="100">d100</button>
+        </section>
+        <button class="roll" disabled>Roll !</button>
+        <section class="result">
+            <h2>Result</h2>
+        </section>
+        <section class="history">
+            <h2>Roll History</h2>
+            <button class="clearHist" hidden>Clear history</button>
+            <p class="history-text"></p>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

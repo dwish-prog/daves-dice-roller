@@ -1,0 +1,17 @@
+.active {
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 0.5em;
+    border-radius: 10px;
+}
+
+.history {
+    margin: 1em 10em;
+}
